@@ -6,6 +6,26 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>MyAutoMapper</Title>
+    <Description>C# Auto Object Property Mapper</Description>
+    <PackageProjectUrl>https://github.com/meto260/MyAutoMapper</PackageProjectUrl>
+    <PackageIcon>6dc24f86-6f92-4eb3-a94d-537c3d429b51.jpg</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/meto260/MyAutoMapper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Auto Mapper Object Property</PackageTags>
+    <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\6dc24f86-6f92-4eb3-a94d-537c3d429b51.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\..\Downloads\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
