@@ -4,7 +4,7 @@
 ```
 NuGet\Install-Package MyAutoMapper -Version 1.0.0
 ```
-version of package for use last version see https://www.nuget.org/packages/MyAutoMapper/1.0.0
+version of package for use last version see https://www.nuget.org/packages/MyAutoMapper/
 
 # How to use
 ```using System.Text.Json;
