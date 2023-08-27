@@ -2,7 +2,7 @@
 
 # Install
 ```
-NuGet\Install-Package MyAutoMapper -Version 1.0.0
+NuGet\Install-Package MyAutoMapper -Version 2.0.0.1
 ```
 version of package for use last version see https://www.nuget.org/packages/MyAutoMapper/
 
