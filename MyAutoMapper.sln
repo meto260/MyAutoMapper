@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAutoMapper", "MyAutoMapper\MyAutoMapper.csproj", "{5A4FBC4F-4A26-4E73-88DB-49FB7379929B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{33E1BDBE-3B6A-4ED0-BC11-10C1B26BBD7D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{5A4FBC4F-4A26-4E73-88DB-49FB7379929B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A4FBC4F-4A26-4E73-88DB-49FB7379929B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A4FBC4F-4A26-4E73-88DB-49FB7379929B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33E1BDBE-3B6A-4ED0-BC11-10C1B26BBD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33E1BDBE-3B6A-4ED0-BC11-10C1B26BBD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33E1BDBE-3B6A-4ED0-BC11-10C1B26BBD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33E1BDBE-3B6A-4ED0-BC11-10C1B26BBD7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

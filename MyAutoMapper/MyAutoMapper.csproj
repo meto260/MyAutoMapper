@@ -14,10 +14,22 @@
     <PackageTags>Auto Mapper Object Property</PackageTags>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
     <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+    <AssemblyVersion>2.0.0.1</AssemblyVersion>
+    <FileVersion>2.0.0.1</FileVersion>
+    <Version>2.0.0.1</Version>
+    <PackageIcon>icon-automapper.png</PackageIcon>
+    <PackageReleaseNotes>nuget contents added</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Downloads\README.md">
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon-automapper.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
