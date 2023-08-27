@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Text.Json;
 
 public static class MyAutoMapper {
     /// <summary>
@@ -28,6 +29,28 @@ public static class MyAutoMapper {
             }
         }
         return obj;
+    }
+
+    /// <summary>
+    /// Set value an object
+    /// </summary>
+    /// <typeparam name="T">Target type</typeparam>
+    /// <param name="source">Source object</param>
+    /// <param name="Key">Target property</param>
+    /// <param name="Val">New Value</param>
+    public static T Set<T>(this T source, string Key, object Val) {
+        source?.GetType().GetProperty(Key)?.SetValue(source, Val, null);
+        return source;
+    }
+
+    /// <summary>
+    /// Get value an object
+    /// </summary>
+    /// <param name="source">Source object</param>
+    /// <param name="Key">Target property</param>
+    public static object Get(this object source, string Key) {
+        var result = source?.GetType().GetProperty(Key)?.GetValue(source);
+        return result;
     }
 
     /// <summary>
