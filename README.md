@@ -1,13 +1,14 @@
 # MyAutoMapper
 
 # Install
-```
+```console
 NuGet\Install-Package MyAutoMapper -Version 2.0.0.1
 ```
 version of package for use last version see https://www.nuget.org/packages/MyAutoMapper/
 
 # How to use
-```using System.Text.Json;
+```csharp
+using System.Text.Json;
 
 var result1 = new { naME = "adi", suRName = "soyadi", age = 2 }.Map<Person>();
 Console.WriteLine(JsonSerializer.Serialize(result1));
@@ -32,7 +33,7 @@ class Person {
 }
 ```
 <code>Output</code>
-```
+```json
 {"Name":"adi","SurName":"soyadi"}
 {"name":"adi","surname":"soyadi","age":2}
 {"Name":"xxx","SurName":"snm"}
